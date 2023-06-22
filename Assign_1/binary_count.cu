@@ -45,3 +45,6 @@ int main(int argc, char **argv)
     cudaFree(d_count);
     return 0;
 }
+
+
+// Pass 2*20 = 1048576 and 1024

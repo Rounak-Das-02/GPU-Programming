@@ -1,0 +1,1000 @@
+ 1005  ./MatrixAdd.o 10000 10000 64 128
+ 1006  ./MatrixAdd.o 10000 10000 64 256
+ 1007  ./MatrixAdd.o 10000 10000 256 256
+ 1008  clear
+ 1009  exit
+ 1010  cd CUDA_Prog/
+ 1011  clear
+ 1012  https://www.khanacademy.org/profile/me/assignments/teacher/kaid_88436313280120057328933/class/6552931059417088https://www.khanacademy.org/profile/me/assignments/teacher/kaid_88436313280120057328933/class/6552931059417088
+ 1013  clear
+ 1014  ls
+ 1015  vi MatrixAdd.cu 
+ 1016  vi MatrixAdd.c
+ 1017  exit
+ 1018  cd CUDA_Prog/
+ 1019  ls
+ 1020  ./MatrixAdd.o 10000 10000 2 5
+ 1021  ./MatrixAdd.o 10000 10000 32 32
+ 1022  ./MatrixAdd.o 10000 10000 64 32
+ 1023  ./MatrixAdd.o 10000 10000 32 1024
+ 1024  nvprof ./MatrixAdd.o 10000 10000 2 5
+ 1025  vi MatrixAdd.cu 
+ 1026  ssh -x 1227@10.59. 121.171
+ 1027  ssh -x 1227@10.59.121.171
+ 1028  cd CUDA_Prog/
+ 1029  ls
+ 1030  nvcc MatrixAdd.cu -o MatrixAdd.o
+ 1031  nvprof ./MatrixAdd.o 10000 10000 2 5 
+ 1032  nvprof ./MatrixAdd.o 10000 10000 64 128
+ 1033  nvprof ./MatrixAdd.o 10000 10000 64 256
+ 1034  nvprof ./MatrixAdd.o 10000 10000 80 128
+ 1035  vi MatrixMul.cu 
+ 1036  cd CUDA_Prog/
+ 1037  ls
+ 1038  mkdir built_In_Libraries
+ 1039  cd built_In_Libraries/
+ 1040  ls
+ 1041  mkdir Thrust
+ 1042  ls
+ 1043  cd Thrust/
+ 1044  vi VectorOp.cu
+ 1045  nvcc VectorOp.cu - VectorOp.o
+ 1046  vi VectorOp.cu
+ 1047  nvcc VectorOp.cu - VectorOp.o
+ 1048  vi VectorOp.cu
+ 1049  nvcc VectorOp.cu 
+ 1050  ls
+ 1051  ./a.out
+ 1052  vi VectorOp.cu
+ 1053  nvcc VectorOp.cu 
+ 1054  ./a.out
+ 1055  vi VectorOp.cu
+ 1056  nvcc VectorOp.cu 
+ 1057  vi VectorOp.cu
+ 1058  nvcc VectorOp.cu 
+ 1059  ./a.out
+ 1060  vi VectorOp.cu
+ 1061  nvcc VectorOp.cu 
+ 1062  vi VectorOp.cu
+ 1063  nvcc VectorOp.cu 
+ 1064  vi VectorOp.cu
+ 1065  nvcc VectorOp.cu 
+ 1066  vi VectorOp.cu
+ 1067  nvcc VectorOp.cu 
+ 1068  vi VectorOp.cu
+ 1069  vi +37 VectorOp.cu
+ 1070  nvcc VectorOp.cu 
+ 1071  vi +37 VectorOp.cu
+ 1072  nvcc VectorOp.cu 
+ 1073  vi +37 VectorOp.cu
+ 1074  nvcc VectorOp.cu 
+ 1075  vi +37 VectorOp.cu
+ 1076  nvcc VectorOp.cu  -o VectorOp.o
+ 1077  ./VectorOp.o 
+ 1078  cd CUDA_Prog/built_In_Libraries/CUBLAS/
+ 1079  vi MatMulti1.cu 
+ 1080  rm .MatMulti1.cu.swp 
+ 1081  vi MatMulti1.cu 
+ 1082  cd CUDA_Prog/
+ 1083  ls
+ 1084  cd built_In_Libraries/
+ 1085  ls
+ 1086  cd Thrust/
+ 1087  ls
+ 1088  ./VectorOp.o 
+ 1089  nvprof ./VectorOp.o 
+ 1090  vi VectorOp.cu 
+ 1091  nvcc VectorOp.cu -o VectorOp.o
+ 1092  vi VectorOp.cu 
+ 1093  nvcc VectorOp.cu -o VectorOp.o
+ 1094  nvprof ./VectorOp.o 
+ 1095  vi VectorOp.cu 
+ 1096  nvcc VectorOp.cu -o VectorOp.o
+ 1097  nvprof ./VectorOp.o 
+ 1098  vi VectorOp.cu 
+ 1099  nvcc VectorOp.cu -o VectorOp.o
+ 1100  vi VectorOp.cu 
+ 1101  nvcc VectorOp.cu -o VectorOp.o
+ 1102  vi VectorOp.cu 
+ 1103  nvcc VectorOp.cu -o VectorOp.o
+ 1104  nvprof ./VectorOp.o 
+ 1105  vi VectorOp.cu 
+ 1106  nvcc VectorOp.cu -o VectorOp.o
+ 1107  nvprof ./VectorOp.o 
+ 1108  vi VectorOp.cu 
+ 1109  nvcc VectorOp.cu -o VectorOp.o
+ 1110  vi VectorOp.cu 
+ 1111  nvcc VectorOp.cu -o VectorOp.o
+ 1112  vi VectorOp.cu 
+ 1113  nvcc VectorOp.cu -o VectorOp.o
+ 1114  vi VectorOp.cu 
+ 1115  nvcc VectorOp.cu -o VectorOp.o
+ 1116  vi VectorOp.cu 
+ 1117  nvcc VectorOp.cu -o VectorOp.o
+ 1118  vi VectorOp.cu 
+ 1119  nvcc VectorOp.cu -o VectorOp.o
+ 1120  vi VectorOp.cu 
+ 1121  cd ..
+ 1122  mkdir CUBLAS
+ 1123  cd CUBLAS/
+ 1124  vi MatMulti1.cu
+ 1125  vi MatMulti1.cu 
+ 1126  vi cublas_utils.h
+ 1127  nvcc MatMulti1.cu -o MatMulti1.o
+ 1128  vi cublas_utils.h
+ 1129  vi MatMulti1.cu 
+ 1130  vi cublas_utils.h
+ 1131  cd CUDA_Prog/
+ 1132  ls
+ 1133  cd built_In_Libraries/
+ 1134  ls
+ 1135  cd CUBLAS/
+ 1136  ls
+ 1137  vi cublas_utils.h 
+ 1138  nvcc MatMulti1.cu -o MatMulti1.o
+ 1139  vi +17 MatMulti1.cu
+ 1140  cd CUDA_Prog/
+ 1141  cd built_In_Libraries/
+ 1142  ls
+ 1143  cd CUBLAS/
+ 1144  ls
+ 1145  vi MatMulti1.cu 
+ 1146  rm .MatMulti1.cu.swp 
+ 1147  vi MatMulti1.cu 
+ 1148  cd CUDA_Prog/
+ 1149  cd  built_In_Libraries/
+ 1150  ls
+ 1151  cd CUBLAS/
+ 1152  ls
+ 1153  vi MatMulti1.cu 
+ 1154  cd CUDA_Prog/
+ 1155  cd built_In_Libraries/CUBLAS/
+ 1156  ls
+ 1157  vi MatMulti1.cu 
+ 1158  rm .MatMulti1.cu.swp 
+ 1159  vi MatMulti1.cu 
+ 1160  nvcc MatMulti1.cu -o MatMulti1.o
+ 1161  vi MatMulti1.cu 
+ 1162  nvcc MatMulti1.cu -o MatMulti1.o
+ 1163  vi MatMulti1.cu 
+ 1164  nvcc MatMulti1.cu -o MatMulti1.o
+ 1165  vi cublas_utils.h 
+ 1166  nvcc MatMulti1.cu -o MatMulti1.o
+ 1167  vi cublas_utils.h 
+ 1168  nvcc MatMulti1.cu -o MatMulti1.o
+ 1169  vi +23 cublas_utils.h 
+ 1170  nvcc MatMulti1.cu -o MatMulti1.o
+ 1171  vi +23 cublas_utils.h 
+ 1172  nvcc MatMulti1.cu -o MatMulti1.o
+ 1173  vi +23 cublas_utils.h 
+ 1174  nvcc MatMulti1.cu -o MatMulti1.o
+ 1175  vi +23 cublas_utils.h 
+ 1176  nvcc MatMulti1.cu -o MatMulti1.o
+ 1177  vi +23 cublas_utils.h 
+ 1178  nvcc MatMulti1.cu -o MatMulti1.o
+ 1179  vi MatMulti1.cu 
+ 1180  vi +23 cublas_utils.h 
+ 1181  vi MatMulti1.cu 
+ 1182  nvcc MatMulti1.cu -o MatMulti1.o
+ 1183  vi MatMulti1.cu 
+ 1184  nvcc MatMulti1.cu -o MatMulti1.o
+ 1185  vi MatMulti1.cu 
+ 1186  nvcc MatMulti1.cu -o MatMulti1.o
+ 1187  vi MatMulti1.cu 
+ 1188  find /usr/local/ -name "cublas_v2.h"
+ 1189  find /usr/local/ -name "cublas.h"
+ 1190  vi MatMulti1.cu 
+ 1191  find /usr/local/ -name "cublas_v2.h"
+ 1192  nvcc MatMulti1.cu -o MatMulti1.o
+ 1193  vi MatMulti1.cu 
+ 1194  nvcc MatMulti1.cu -o MatMulti1.o
+ 1195  vi MatMulti1.cu 
+ 1196  nvcc MatMulti1.cu -o MatMulti1.o
+ 1197  find /usr/local -name "cublas"
+ 1198  find /usr/local -name "cublas*" >> out1.txt
+ 1199  cat out1.txt 
+ 1200  rm out1.txt 
+ 1201  ls
+ 1202  nvcc MatMulti1.cu -o MatMulti1.o
+ 1203  vi MatMulti1.cu 
+ 1204  nvcc MatMulti1.cu -o MatMulti1.o
+ 1205  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1206  ls 
+ 1207  ./my_program.o 
+ 1208  vi MatMulti1.cu 
+ 1209  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1210  vi MatMulti1.cu 
+ 1211  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1212  vi MatMulti1.cu 
+ 1213  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1214  vi MatMulti1.cu 
+ 1215  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1216  vi +47 MatMulti1.cu 
+ 1217  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1218  vi +47 MatMulti1.cu 
+ 1219  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1220  vi +47 MatMulti1.cu 
+ 1221  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1222  vi +47 MatMulti1.cu 
+ 1223  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1224  vi +47 MatMulti1.cu 
+ 1225  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1226  vi +48 MatMulti1.cu 
+ 1227  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1228  vi +48 MatMulti1.cu 
+ 1229  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1230  vi +48 MatMulti1.cu 
+ 1231  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1232  vi +48 MatMulti1.cu 
+ 1233  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1234  vi +48 MatMulti1.cu 
+ 1235  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1236  vi +48 MatMulti1.cu 
+ 1237  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1238  ./my_program.o 
+ 1239  vi +48 MatMulti1.cu 
+ 1240  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1241  ./my_program.o 
+ 1242  vi +48 MatMulti1.cu 
+ 1243  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1244  ./my_program.o 
+ 1245  vi +48 MatMulti1.cu 
+ 1246  cd CUDA_Prog/built_In_Libraries/CUBLAS/
+ 1247  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1248  ./my_program.o 
+ 1249  vi MatMulti1.cu 
+ 1250  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1251  ./my_program.o 
+ 1252  vi MatMulti1.cu 
+ 1253  rm .MatMulti1.cu.swp 
+ 1254  vi MatMulti1.cu 
+ 1255  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1256  ./my_program.o 
+ 1257  vi MatMulti1.cu 
+ 1258  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1259  ./my_program.o 
+ 1260  vi MatMulti1.cu 
+ 1261  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1262  ./my_program.o 
+ 1263  vi MatMulti1.cu 
+ 1264  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1265  ./my_program.o 
+ 1266  vi MatMulti1.cu 
+ 1267  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1268  ./my_program.o 
+ 1269  vi MatMulti1.cu 
+ 1270  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1271  vi MatMulti1.cu 
+ 1272  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1273  ./my_program.o 
+ 1274  vi MatMulti1.cu 
+ 1275  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1276  ./my_program.o 
+ 1277  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_80 -rdc=true -lcublas_device -lcudadevrt
+ 1278  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_70 -rdc=true -lcublas_device -lcudadevrt
+ 1279  ./my_program.o 
+ 1280  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=compute_80 -rdc=true -lcublas_device -lcudadevrt
+ 1281  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=sm_70 -rdc=true -lcublas_device -lcudadevrt
+ 1282  ./my_program.o 
+ 1283  cd ..
+ 1284  ls
+ 1285  cd ..
+ 1286  ls
+ 1287  cd CUBLAS/
+ 1288  vi MatMulti1.cu 
+ 1289  cd ..
+ 1290  cd CUDA_Prog/
+ 1291  ls
+ 1292  cd built_In_Libraries/
+ 1293  ls
+ 1294  cd CUBLAS/
+ 1295  ls
+ 1296  vi MatMult_cuBLAS.cu
+ 1297  nvcc MatMult_cuBLAS.cu 
+ 1298  vi MatMult_cuBLAS.cu
+ 1299  nvcc MatMult_cuBLAS.cu 
+ 1300  vi MatMult_cuBLAS.cu
+ 1301  nvcc MatMult_cuBLAS.cu 
+ 1302  vi MatMult_cuBLAS.cu
+ 1303  nvcc MatMult_cuBLAS.cu 
+ 1304  vi MatMult_cuBLAS.cu
+ 1305  nvcc MatMult_cuBLAS.cu 
+ 1306  vi MatMult_cuBLAS.cu
+ 1307  nvcc MatMult_cuBLAS.cu 
+ 1308  vi MatMult_cuBLAS.cu
+ 1309  nvcc MatMult_cuBLAS.cu 
+ 1310  vi MatMult_cuBLAS.cu
+ 1311  nvcc MatMult_cuBLAS.cu 
+ 1312  nvcc -std=c++11 MatMult_cuBLAS.cu -o my_MatMul_cublas.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1313  ./my_MatMul_cublas.o 10
+ 1314  vi MatMult_cuBLAS.cu
+ 1315  nvcc -std=c++11 MatMult_cuBLAS.cu -o my_MatMul_cublas.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1316  ./my_MatMul_cublas.o 5
+ 1317  vi MatMult_cuBLAS.cu
+ 1318  nvcc -std=c++11 MatMult_cuBLAS.cu -o my_MatMul_cublas.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1319  ./my_MatMul_cublas.o 5
+ 1320  vi MatMult_cuBLAS.cu
+ 1321  nvcc -std=c++11 MatMult_cuBLAS.cu -o my_MatMul_cublas.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1322  vi MatMult_cuBLAS.cu
+ 1323  nvcc -std=c++11 MatMult_cuBLAS.cu -o my_MatMul_cublas.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1324  vi MatMult_cuBLAS.cu
+ 1325  nvcc -std=c++11 MatMult_cuBLAS.cu -o my_MatMul_cublas.o -lcublas -arch=sm_60 -rdc=true -lcublas_device -lcudadevrt
+ 1326  ./my_MatMul_cublas.o 5
+ 1327  ./my_MatMul_cublas.o 1000
+ 1328  ./my_MatMul_cublas.o 4000
+ 1329  ./my_MatMul_cublas.o 5000
+ 1330  cd ..
+ 1331  ls
+ 1332  vi MatrixMulti_CUDA.cu 
+ 1333  ls
+ 1334  vi MatrixMul_Op2.cu 
+ 1335  vi MatrixMulti_CUDA.cu 
+ 1336  vi MatrixMulti_Op2.cu 
+ 1337  vi MatrixMul_Op2.cu 
+ 1338  ./MatrixMul_Op2.o 1000 1000
+ 1339  ./MatrixMul_Op2.o 4000 4000
+ 1340  cd built_In_Libraries/CUBLAS/
+ 1341  ls
+ 1342  ./my_MatMul_cublas.o 4000
+ 1343  vi MatrixMul_Op2.cu 
+ 1344  cd ..
+ 1345  vi MatrixMul_Op2.cu 
+ 1346  vi MatrixMul_Op3.cu 
+ 1347  vi MatrixMul_Op.cu 
+ 1348  nvcc MatrixMul_Op.cu  -o MatrixMul_Op.o 
+ 1349  ./MatrixMul_Op.o 1000 1000
+ 1350  vi MatrixMul_Op.cu 
+ 1351  ./MatrixMul_Op.o 1000 1000 32 128
+ 1352  ./MatrixMul_Op.o 4000 4000 64 128
+ 1353  ./MatrixMul_Op.o 4000 4000 64 256
+ 1354  ./MatrixMul_Op.o 4000 4000 32 1204
+ 1355  ./MatrixMul_Op.o 4000 4000 32 1024
+ 1356  cd CUDA_Prog/
+ 1357  ls
+ 1358  cd built_In_Libraries/CUBLAS/
+ 1359  ls
+ 1360  vi MatMult_cuBLAS.cu 
+ 1361  cp MatMult_cuBLAS.cu MatMult_cuBLAS1.cu 
+ 1362  vi MatMult_cuBLAS1.cu 
+ 1363  nvcc -std=c++11 MatMult_cuBLAS1.cu -o my_MatMul_cublas1.o -lcublas -arch=sm_70 -rdc=true -lcublas_device -lcudadevrt
+ 1364  ./my_MatMul_cublas1.o 4000 
+ 1365  vi MatMult_cuBLAS1.cu 
+ 1366  nvcc -std=c++11 MatMult_cuBLAS1.cu -o my_MatMul_cublas1.o -lcublas -arch=sm_70 -rdc=true -lcublas_device -lcudadevrt
+ 1367  ./my_MatMul_cublas1.o 4000 
+ 1368  vi MatMult_cuBLAS1.cu 
+ 1369  nvcc -std=c++11 MatMult_cuBLAS1.cu -o my_MatMul_cublas1.o -lcublas -arch=sm_70 -rdc=true -lcublas_device -lcudadevrt
+ 1370  ./my_MatMul_cublas1.o 4000 
+ 1371  vi MatMult_cuBLAS.cu 
+ 1372  exit
+ 1373  cd CUDA_Prog/
+ 1374  ls
+ 1375  cd Functions/
+ 1376  ls
+ 1377  vi funCalls.cu 
+ 1378  nvcc funCalls.cu  -o funCalls.o
+ 1379  ./funCalls.o 
+ 1380  vi funCalls.cu 
+ 1381  nvcc funCalls.cu  -o funCalls.o
+ 1382  ./funCalls.o 
+ 1383  vi funCalls.cu 
+ 1384  nvcc funCalls.cu  -o funCalls.o
+ 1385  ./funCalls.o 
+ 1386  vi funCalls.cu 
+ 1387  nvcc funCalls.cu  -o funCalls.o
+ 1388  ./funCalls.o 
+ 1389  vi funCalls.cu 
+ 1390  nvcc funCalls.cu  -o funCalls.o
+ 1391  ./funCalls.o 
+ 1392  vi funCalls.cu 
+ 1393  nvcc funCalls.cu  -o funCalls.o
+ 1394  vi funCalls.cu 
+ 1395  nvcc funCalls.cu  -o funCalls.o
+ 1396  vi funCalls.cu 
+ 1397  nvcc funCalls.cu  -o funCalls.o
+ 1398  vi funCalls.cu 
+ 1399  nvcc funCalls.cu  -o funCalls.o
+ 1400  ./funCalls.o 
+ 1401  vi funCalls.cu 
+ 1402  nvcc funCalls.cu  -o funCalls.o
+ 1403  ./funCalls.o 
+ 1404  vi funCalls.cu 
+ 1405  nvcc funCalls.cu  -o funCalls.o
+ 1406  ./funCalls.o 
+ 1407  vi funCalls.cu 
+ 1408  nvcc funCalls.cu  -o funCalls.o
+ 1409  ./funCalls.o 
+ 1410  vi funCalls.cu 
+ 1411  nvcc funCalls.cu  -o funCalls.o
+ 1412  vi funCalls.cu 
+ 1413  nvcc funCalls.cu  -o funCalls.o
+ 1414  vi funCalls.cu 
+ 1415  nvcc funCalls.cu  -o funCalls.o
+ 1416  ./funCalls.o 
+ 1417  vi funCalls.cu 
+ 1418  nvcc funCalls.cu  -o funCalls.o
+ 1419  ./funCalls.o 
+ 1420  vi funCalls.cu 
+ 1421  nvcc funCalls.cu  -o funCalls.o
+ 1422  ./funCalls.o 
+ 1423  vi funCalls.cu 
+ 1424  exit
+ 1425  cd CUDA_Prog/
+ 1426  ls
+ 1427  cd Functions/
+ 1428  ls
+ 1429  vi fact.cu 
+ 1430  nvcc fact.cu -o fact.o
+ 1431  vi +14 fact.cu 
+ 1432  nvcc fact.cu -o fact.o
+ 1433  ./fact.o 8 1 2
+ 1434  vi +14 fact.cu 
+ 1435  ./fact.o 8 1 1
+ 1436  vi +14 fact.cu 
+ 1437  nvcc fact.cu -o fact.o
+ 1438  ./fact.o 8 1 1
+ 1439  vi +14 fact.cu 
+ 1440  nvcc fact.cu -o fact.o
+ 1441  ./fact.o 8 1 1
+ 1442  ./fact.o 8 1 2
+ 1443  vi +14 fact.cu 
+ 1444  nvcc fact.cu -o fact.o
+ 1445  ./fact.o 8 1 1
+ 1446  ./fact.o 8 1 2
+ 1447  vi +14 fact.cu 
+ 1448  nvcc fact.cu -o fact.o
+ 1449  ./fact.o 8 1 2
+ 1450  ./fact.o 4 1 2
+ 1451  ./fact.o 8 1 2
+ 1452  ./fact.o 8 2 2
+ 1453  vi +14 fact.cu 
+ 1454  ./fact.o 8 2 2
+ 1455  vi +14 fact.cu 
+ 1456  nvcc fact.cu -o fact.o
+ 1457  ./fact.o 8 2 2
+ 1458  vi +14 fact.cu 
+ 1459  nvcc fact.cu -o fact.o
+ 1460  ./fact.o 8 2 2
+ 1461  vi +14 fact.cu 
+ 1462  nvcc fact.cu -o fact.o
+ 1463  ./fact.o 8 2 2
+ 1464  vi +14 fact.cu 
+ 1465  nvcc fact.cu -o fact.o
+ 1466  ./fact.o 8 2 2
+ 1467  vi +14 fact.cu 
+ 1468  nvcc fact.cu -o fact.o
+ 1469  ./fact.o 8 2 2
+ 1470  vi +14 fact.cu 
+ 1471  nvcc fact.cu -o fact.o
+ 1472  ./fact.o 8 2 2
+ 1473  vi +14 fact.cu 
+ 1474  ./fact.o 8 1 1
+ 1475  ./fact.o 8 1 2
+ 1476  ./fact.o 8 1 4
+ 1477  ./fact.o 8 2 1
+ 1478  vi +14 fact.cu 
+ 1479  nvcc fact.cu -o fact.o
+ 1480  ./fact.o 8 2 1
+ 1481  vi +14 fact.cu 
+ 1482  nvcc fact.cu -o fact.o
+ 1483  ./fact.o 8 2 1
+ 1484  ./fact.o 8 1
+ 1485  ./fact.o 8 2
+ 1486  ./fact.o 8 3
+ 1487  ./fact.o 8 4
+ 1488  vi +14 fact.cu 
+ 1489  nvcc fact.cu -o fact.o
+ 1490  ./fact.o 8 1
+ 1491  vi +14 fact.cu 
+ 1492  nvcc fact.cu -o fact.o
+ 1493  ./fact.o 8 1
+ 1494  vi +14 fact.cu 
+ 1495  ./fact.o 8 1
+ 1496  nvcc fact.cu -o fact.o
+ 1497  ./fact.o 8 1
+ 1498  ./fact.o 8 2
+ 1499  ./fact.o 8 3
+ 1500  ./fact.o 8 4
+ 1501  ./fact.o 10 2
+ 1502  vi +14 fact.cu 
+ 1503  cd CUDA_Prog/
+ 1504  ls
+ 1505  cd Functions/
+ 1506  ls
+ 1507  vi funCalls.cu 
+ 1508  cd CUDA_Prog/
+ 1509  ls
+ 1510  cd Functions/
+ 1511  ls
+ 1512  vi fact.cu 
+ 1513  nvcc fact.cu -o fact.o
+ 1514  ./fact.o 8 1
+ 1515  ./fact.o 8 2
+ 1516  ./fact.o 8 4
+ 1517  ./fact.o 8 8
+ 1518  vi fact.cu 
+ 1519  :wq
+ 1520  ./fact.o  12 4
+ 1521  vi  funCalls.cu 
+ 1522  nvcc funCalls.cu -o funCalls.o
+ 1523  ./funCalls.o 
+ 1524  vi  funCalls.cu 
+ 1525  nvcc funCalls.cu -o funCalls.o
+ 1526  ./funCalls.o 
+ 1527  vi  funCalls.cu 
+ 1528  nvcc funCalls.cu -o funCalls.o
+ 1529  ./funCalls.o 
+ 1530  vi  funCalls.cu 
+ 1531  nvcc funCalls.cu -o funCalls.o
+ 1532  ./funCalls.o 
+ 1533  vi  funCalls.cu 
+ 1534  nvcc funCalls.cu -o funCalls.o
+ 1535  vi  funCalls.cu 
+ 1536  nvcc funCalls.cu -o funCalls.o
+ 1537  vi  funCalls.cu 
+ 1538  nvcc funCalls.cu -o funCalls.o
+ 1539  vi  funCalls.cu 
+ 1540  nvcc funCalls.cu -o funCalls.o
+ 1541  vi  funCalls.cu 
+ 1542  nvcc funCalls.cu -o funCalls.o
+ 1543  ./funCalls.o 
+ 1544  vi  funCalls.cu 
+ 1545  nvcc funCalls.cu -o funCalls.o
+ 1546  vi  funCalls.cu 
+ 1547  nvcc funCalls.cu -o funCalls.o
+ 1548  vi  funCalls.cu 
+ 1549  exit
+ 1550  cd CUDA_Prog/
+ 1551  ls
+ 1552  cd built_In_Libraries/
+ 1553  ls
+ 1554  cd Thrust/
+ 1555  ls
+ 1556  vi Eg2.cu
+ 1557  nvcc Eg2.cu -o Eg2.o
+ 1558  vi Eg2.cu 
+ 1559  vi Eg2.cu
+ 1560  nvcc Eg2.cu -o Eg2.o
+ 1561  vi Eg2.cu
+ 1562  nvcc Eg2.cu -o Eg2.o
+ 1563  vi Eg2.cu
+ 1564  vi VectorOp.cu 
+ 1565  vi Eg2.cu
+ 1566  nvcc Eg2.cu -o Eg2.o
+ 1567  ./Eg2.o 
+ 1568  vi Eg2.cu
+ 1569  nvcc Eg2.cu -o Eg2.o
+ 1570  vi Eg2.cu
+ 1571  nvcc Eg2.cu -o Eg2.o
+ 1572  vi Eg2.cu
+ 1573  nvcc Eg2.cu -o Eg2.o
+ 1574  vi Eg2.cu
+ 1575  nvcc Eg2.cu -o Eg2.o
+ 1576  ./Eg2.o 
+ 1577  vi Eg2.cu
+ 1578  nvcc Eg2.cu -o Eg2.o
+ 1579  vi Eg2.cu
+ 1580  ./Eg2.o 
+ 1581  vi Eg2.cu
+ 1582  nvcc Eg2.cu -o Eg2.o
+ 1583  ./Eg2.o 
+ 1584  vi Eg2.cu
+ 1585  nvcc Eg2.cu -o Eg2.o
+ 1586  ./Eg2.o 
+ 1587  vi Eg2.cu
+ 1588  nvcc Eg2.cu -o Eg2.o
+ 1589  ./Eg2.o 
+ 1590  vi Eg2.cu
+ 1591  nvcc Eg2.cu -o Eg2.o
+ 1592  ./Eg2.o 
+ 1593  vi Eg2.cu
+ 1594  nvcc Eg2.cu -o Eg2.o
+ 1595  ./Eg2.o 
+ 1596  vi Eg2.cu
+ 1597  nvcc Eg2.cu -o Eg2.o
+ 1598  vi Eg2.cu
+ 1599  nvcc Eg2.cu -o Eg2.o
+ 1600  ./Eg2.o 
+ 1601  nvprof ./Eg2.o 
+ 1602  nvprof ./Eg2.o |pg
+ 1603  nvprof ./Eg2.o | more
+ 1604  cd CUDA_Prog/
+ 1605  ls
+ 1606  cd built_In_Libraries/
+ 1607  ls
+ 1608  cd Thrust/
+ 1609  ls
+ 1610  cp VectorOp.cu Eg1.cu
+ 1611  vi Eg1.cu 
+ 1612  cp Eg2.cu Eg3.cu
+ 1613  vi Eg3.cu 
+ 1614  nvcc Eg3.cu -o Eg3.o
+ 1615  vi Eg1.cu 
+ 1616  vi Eg3.cu 
+ 1617  nvcc Eg3.cu -o Eg3.o
+ 1618  ./Eg3.o 
+ 1619  vi Eg3.cu 
+ 1620  nvcc Eg3.cu -o Eg3.o
+ 1621  ./Eg3.o 
+ 1622  vi Eg3.cu 
+ 1623  nvcc Eg3.cu -o Eg3.o
+ 1624  ./Eg3.o 
+ 1625  vi Eg3.cu 
+ 1626  cd CUDA_Prog/
+ 1627  ls
+ 1628  cd built_In_Libraries/
+ 1629  ls
+ 1630  cd Thrust/
+ 1631  ls
+ 1632  vi Eg4.cu
+ 1633  nvcc Eg4.cu -o Eg4.o
+ 1634  ./Eg4.o
+ 1635  vi Eg4.cu
+ 1636  nvcc Eg4.cu -o Eg4.o
+ 1637  ./Eg4.o
+ 1638  vi Eg4.cu
+ 1639  cp Eg3.cu Eg4.cu
+ 1640  vi Eg4.cu
+ 1641  cd CUDA_Prog/
+ 1642  ls
+ 1643  cd built_In_Libraries/
+ 1644  ls
+ 1645  cd Thrust/
+ 1646  ls
+ 1647  vi Eg4.cu 
+ 1648  nvcc Eg4.cu -Eg4.o
+ 1649  nvcc Eg4.cu -o Eg4.o
+ 1650  vi Eg4.cu 
+ 1651  vi VectorOp.cu 
+ 1652  vi Eg4.cu 
+ 1653  nvcc Eg4.cu -o Eg4.o
+ 1654  vi Eg4.cu 
+ 1655  nvcc Eg4.cu -o Eg4.o
+ 1656  vi Eg4.cu 
+ 1657  nvcc Eg4.cu -o Eg4.o
+ 1658  vi Eg4.cu 
+ 1659  nvcc Eg4.cu -o Eg4.o
+ 1660  ./Eg4.o 
+ 1661  vi Eg4.cu 
+ 1662  nvcc Eg4.cu -o Eg4.o
+ 1663  ./Eg4.o 
+ 1664  vi Eg4.cu 
+ 1665  nvcc Eg4.cu -o Eg4.o
+ 1666  ./Eg4.o 
+ 1667  nvcc Eg4.cu -o Eg4.o
+ 1668  vi Eg4.cu 
+ 1669  vi Eg5.cu
+ 1670  nvcc Eg5.cu -o Eg5.o
+ 1671  vi Eg4.cu 
+ 1672  vi Eg5.cu
+ 1673  nvcc Eg5.cu -o Eg5.o
+ 1674  vi Eg5.cu
+ 1675  nvcc Eg5.cu -o Eg5.o
+ 1676  ./Eg5.o 
+ 1677  vi Eg5.cu
+ 1678  nvcc Eg5.cu -o Eg5.o
+ 1679  ./Eg5.o 
+ 1680  vi Eg5.cu
+ 1681  nvcc Eg5.cu -o Eg5.o
+ 1682  ./Eg5.o 
+ 1683  vi Eg5.cu
+ 1684  nvcc Eg5.cu -o Eg5.o
+ 1685  ./Eg5.o 
+ 1686  vi Eg5.cu
+ 1687  nvcc Eg5.cu -o Eg5.o
+ 1688  ./Eg5.o 
+ 1689  vi Eg5.cu
+ 1690  nvcc Eg5.cu -o Eg5.o
+ 1691  ./Eg5.o 
+ 1692  vi Eg5.cu
+ 1693  nvcc Eg5.cu -o Eg5.o
+ 1694  ./Eg5.o 
+ 1695  vi Eg5.cu
+ 1696  exit
+ 1697  cd CUDA_Prog/
+ 1698  ls
+ 1699  cd DotProd/
+ 1700  ls
+ 1701  vi VectorDotProd_ext.cu 
+ 1702  nvcc VectorDotProd_ext.cu -o VectorDotProd_ext.o
+ 1703  ./VectorDotProd_ext.o 1000000000 80
+ 1704  vi VectorDotProd1.cu 
+ 1705  nvcc VectorDotProd1.cu -o VectorDotProd1.o 
+ 1706  ./VectorDotProd1.o 1000000000 80
+ 1707  ./VectorDotProd1.o 1000000000 80 256
+ 1708  exit
+ 1709  cd CUDA_Prog/
+ 1710  ls
+ 1711  cd built_In_Libraries/
+ 1712  ls
+ 1713  vi Thrust/
+ 1714  cd Thrust/
+ 1715  ls
+ 1716  vi Eg5.cu 
+ 1717  vi Eg1.cu 
+ 1718  nvcc Eg1.cu -o Eg1.o
+ 1719  vi Eg1.cu 
+ 1720  nvcc Eg1.cu -o Eg1.o
+ 1721  vi Eg1.cu 
+ 1722  nvcc Eg1.cu -o Eg1.o
+ 1723  vi Eg1.cu 
+ 1724  nvcc Eg1.cu -o Eg1.o
+ 1725  vi Eg1.cu 
+ 1726  nvcc Eg1.cu -o Eg1.o
+ 1727  vi Eg1.cu 
+ 1728  cd ..
+ 1729  ls
+ 1730  vi DotProd/
+ 1731  cd DotProd/
+ 1732  ls
+ 1733  vi VectorDotProd1.cu 
+ 1734  vi VectorDotProd_ext.cu 
+ 1735  nvcc VectorDotProd_ext.cu -o VectorDotProd_ext.o
+ 1736  ./VectorDotProd_ext.o 1000000000 80
+ 1737  ./VectorDotProd_ext.o 1000000000 320
+ 1738  ./VectorDotProd_ext.o 1000000000 64
+ 1739  ./VectorDotProd_ext.o 1000000000 40
+ 1740  ./VectorDotProd_ext.o 1000000000 80
+ 1741  ls
+ 1742  vi ManagedMemory/
+ 1743  cd ManagedMemory/
+ 1744  ls
+ 1745  nvcc VectorDotProd_ext.cu -o VectorDotProd_ext.o
+ 1746  ./VectorDotProd_ext.o 1000000000 80
+ 1747  cd ..
+ 1748  cd CUDA_Prog/
+ 1749  ls
+ 1750  cd built_In_Libraries/
+ 1751  ls
+ 1752  cd Thrust/
+ 1753  ls
+ 1754  vi Eg3.cu 
+ 1755  rm .Eg3.cu.swp 
+ 1756  vi Eg3.cu 
+ 1757  nvcc Eg3.cu -o Eg3.o
+ 1758  vi Eg3.cu 
+ 1759  nvcc Eg3.cu -o Eg3.o
+ 1760  ./Eg3.o 
+ 1761  vi Eg3.cu 
+ 1762  nvcc Eg3.cu -o Eg3.o
+ 1763  ./Eg3.o 
+ 1764  vi Eg3.cu 
+ 1765  nvcc Eg3.cu -o Eg3.o
+ 1766  ./Eg3.o 
+ 1767  vi Eg3.cu 
+ 1768  vi Eg4.cu 
+ 1769  nvcc Eg4.cu -o Eg4.o 
+ 1770  ./Eg4.o 
+ 1771  vi Eg4.cu 
+ 1772  vi Eg5.cu 
+ 1773  nvcc Eg5.cu -o Eg5.o
+ 1774  vi Eg5.cu 
+ 1775  nvcc Eg5.cu -o Eg5.o
+ 1776  ./Eg5.o 
+ 1777  vi Eg5.cu 
+ 1778  vi Eg6.cu
+ 1779  nvcc Eg6.cu -o Eg6.o
+ 1780  vi Eg6.cu
+ 1781  nvcc Eg6.cu -o Eg6.o
+ 1782  ./Eg6.o 
+ 1783  vi Eg6.cu
+ 1784  nvcc Eg6.cu -o Eg6.o
+ 1785  ./Eg6.o 
+ 1786  vi Eg6.cu
+ 1787  nvcc Eg6.cu -o Eg6.o
+ 1788  ./Eg6.o 
+ 1789  vi Eg6.cu
+ 1790  nvcc Eg6.cu -o Eg6.o
+ 1791  ./Eg6.o 
+ 1792  vi Eg7.cu
+ 1793  vi Eg6.cu 
+ 1794  vi Eg7.cu
+ 1795  vi Eg6.cu 
+ 1796  vi Eg7.cu
+ 1797  vi Eg3.cu 
+ 1798  vi Eg7.cu
+ 1799  nvcc Eg7.cu -o Eg7.o
+ 1800  vi Eg7.cu
+ 1801  nvcc Eg7.cu -o Eg7.o
+ 1802  vi Eg7.cu
+ 1803  nvcc Eg7.cu -o Eg7.o
+ 1804  vi Eg7.cu
+ 1805  nvcc Eg7.cu -o Eg7.o
+ 1806  vi Eg7.cu
+ 1807  nvcc Eg7.cu -o Eg7.o
+ 1808  vi Eg7.cu
+ 1809  nvcc Eg7.cu -o Eg7.o
+ 1810  vi Eg7.cu
+ 1811  nvcc Eg7.cu -o Eg7.o
+ 1812  vi Eg7.cu
+ 1813  nvcc Eg7.cu -o Eg7.o
+ 1814  vi Eg7.cu
+ 1815  nvcc Eg7.cu -o Eg7.o
+ 1816  vi Eg7.cu
+ 1817  nvcc Eg7.cu -o Eg7.o
+ 1818  clear
+ 1819  exit
+ 1820  cd CUDA_Prog/
+ 1821  ls
+ 1822  cd built_In_Libraries/
+ 1823  ls
+ 1824  cd Thrust/
+ 1825  ls
+ 1826  vi Eg1.cu 
+ 1827  vi Eg2.cu 
+ 1828  cd CUDA_Prog/
+ 1829  cd built_In_Libraries/
+ 1830  ls
+ 1831  cd Thrust/
+ 1832  ls
+ 1833  vi Eg2.cu 
+ 1834  vi Eg3.cu 
+ 1835  clear
+ 1836  cd CUDA_Prog/
+ 1837  ls
+ 1838  cd built_In_Libraries/
+ 1839  ls
+ 1840  cd Thrust/
+ 1841  clear
+ 1842  ls
+ 1843  vi Eg1.cu 
+ 1844  nvcc Eg1.cu -o Eg1.o
+ 1845  ./Eg1.o 
+ 1846  vi Eg2.cu 
+ 1847  nvcc Eg2.cu -o Eg2.o
+ 1848  ./Eg2.o 
+ 1849  cat Eg2.cu 
+ 1850  vi Eg2.cu 
+ 1851  vi Eg1.cu 
+ 1852  vi Eg2.cu 
+ 1853  nvcc Eg2.cu -o Eg2.o
+ 1854  ./Eg2.o 
+ 1855  vi Eg3.cu 
+ 1856  nvcc Eg3.cu -o Eg3.o
+ 1857  ./Eg3.o 
+ 1858  vi Eg3.cu 
+ 1859  nvcc Eg3.cu -o Eg3.o
+ 1860  ./Eg3.o 
+ 1861  vi Eg4.cu 
+ 1862  nvcc Eg4.cu -o Eg4.o
+ 1863  ./Eg4.o 
+ 1864  cat Eg4.cu 
+ 1865  ls
+ 1866  vi Eg5.cu 
+ 1867  nvcc Eg5.cu -o Eg5.o
+ 1868  ./Eg5.o 
+ 1869  vi Eg5.cu 
+ 1870  nvcc Eg5.cu -o Eg5.o
+ 1871  ./Eg5.o 
+ 1872  vi Eg5.cu 
+ 1873  nvcc Eg5.cu -o Eg5.o
+ 1874  ./Eg5.o 
+ 1875  vi Eg5.cu 
+ 1876  nvcc Eg5.cu -o Eg5.o
+ 1877  ./Eg5.o 
+ 1878  exit
+ 1879  cd CUDA_Prog/
+ 1880  ls
+ 1881  vi Convolution_1D.cu 
+ 1882  nvcc Convolution_1D.cu -o Convolution_1D.o
+ 1883  ./Convolution_1D.o 1000000000 100
+ 1884  vi Convolution_1D.cu 
+ 1885  ./Convolution_1D.o 1000000000 100 40 128
+ 1886  ./Convolution_1D.o 1000000000 1000 40 128
+ 1887  ./Convolution_1D.o 1000000000 1000 40 256
+ 1888  ./Convolution_1D.o 1000000000 1000 80 256
+ 1889  ./Convolution_1D.o 1000000000 1000 160 256
+ 1890  ./Convolution_1D.o 1000000000 1000 320 256
+ 1891  ./Convolution_1D.o 1000000000 1000 320 1024
+ 1892  ./Convolution_1D.o 1000000000 1000 320 128
+ 1893  ls
+ 1894  vi Convolution_1D_constMem.cu 
+ 1895  nvcc Convolution_1D_constMem.cu -o Convolution_1D_constMem.o
+ 1896  ./Convolution_1D_constMem.o 1000000000 1024 40 128
+ 1897  vi Convolution_1D_constMem.cu 
+ 1898  nvcc Convolution_1D_constMem.cu -o Convolution_1D_constMem.o
+ 1899  ./Convolution_1D_constMem.o 1000000000 1024 40 128
+ 1900  ./Convolution_1D_constMem.o 1000000000 1024 40 256
+ 1901  ./Convolution_1D_constMem.o 1000000000 1024 80 256
+ 1902  ./Convolution_1D_constMem.o 1000000000 1024 160 256
+ 1903  ./Convolution_1D_constMem.o 1000000000 1024 320 256
+ 1904  vi Convolution_1D_constMem.cu 
+ 1905  vi Convolution_1D.cu 
+ 1906  vi Convolution_1D_constMem.cu 
+ 1907  nvcc Convolution_1D_constMem.cu -o Convolution_1D_constMem.o
+ 1908  ./Convolution_1D_constMem.o 1000000000 1024 40 1024
+ 1909  ./Convolution_1D_constMem.o 1000000000 1024 80 1024
+ 1910  ./Convolution_1D.o 1000000000 1024 80 1024
+ 1911  vi Convolution_1D.cu 
+ 1912  ls
+ 1913  vi Convolution_1D_constMem.cu 
+ 1914  vi Convolution_1D.cu 
+ 1915  nvcc Convolution_1D.cu -o Convolution_1D.o
+ 1916  ./Convolution_1D.o 1000000000 1024 40 1024
+ 1917  ./Convolution_1D.o 1000000000 100 40 1024
+ 1918  ./Convolution_1D.o 1000000000 4096 40 1024
+ 1919  ./Convolution_1D_constMem.o 1000000000 4096 40 1024
+ 1920  ./Convolution_1D_constMem.o 1000000000 100 40 1024
+ 1921  vi Convolution_1D.cu 
+ 1922  nvcc Convolution_1D.cu -o Convolution_1D.o
+ 1923  ls
+ 1924  cd Events/
+ 1925  ls
+ 1926  vi Convolution_1D.cu 
+ 1927  ./Convolution_1D.o 100000000 10000 40 1024
+ 1928  vi Convolution_1D_constMem.cu 
+ 1929  ./Convolution_1D_constMem.o 100000000 10000 40 1024
+ 1930  ./Convolution_1D_constMem.o 100000000 1000 40 1024
+ 1931  vi Convolution_1D_constMem.cu 
+ 1932  nvcc Convolution_1D_constMem.cu -o Convolution_1D_constMem.o
+ 1933  ./Convolution_1D_constMem.o 100000000 1000 40 1024
+ 1934  ./Convolution_1D.o 100000000 1000 40 1024
+ 1935  vi Convolution_1D_constMem.cu 
+ 1936  vi Convolution_1D.cu 
+ 1937  ./Convolution_1D.o 100000000 1000 40 1024
+ 1938  ./Convolution_1D_constMem.o 100000000 1000 40 1024
+ 1939  vi Convolution_1D.cu 
+ 1940  exit
+ 1941  cd CUDA_Prog/
+ 1942  ls
+ 1943  cd Events/
+ 1944  ls
+ 1945  vi Convolution_1D.cu 
+ 1946  nvcc Convolution_1D.c -o Convolution_1D.o 
+ 1947  nvcc Convolution_1D.cu -o Convolution_1D.o 
+ 1948  vi Convolution_1D.cu 
+ 1949  nvcc Convolution_1D.cu -o Convolution_1D.o 
+ 1950  vi Convolution_1D.cu 
+ 1951  nvcc Convolution_1D.cu -o Convolution_1D.o 
+ 1952  vi Convolution_1D.cu 
+ 1953  ./Convolution_1D.o 100000000 10000 40 1024
+ 1954  ./Convolution_1D.o 100000000 10000 40 1025
+ 1955  ./Convolution_1D.o 100000000 10000 80 1025
+ 1956  ./Convolution_1D.o 100000000 10000 80 1024
+ 1957  ./Convolution_1D.o 100000000 10000 160 1024
+ 1958  ./Convolution_1D.o 100000000 10000 320 1024
+ 1959  nvprof ./Convolution_1D.o 100000000 10000 40 1025
+ 1960  nvprof ./Convolution_1D.o 100000000 10000 40 1024
+ 1961  vi Convolution_1D.cu 
+ 1962  nvcc Convolution_1D.cu -o Convolution_1D.o 
+ 1963  nvprof ./Convolution_1D.o 100000000 10000 40 1024
+ 1964  vi Convolution_1D.cu 
+ 1965  nvcc Convolution_1D.cu -o Convolution_1D.o 
+ 1966  nvprof ./Convolution_1D.o 100000000 10000 40 1024
+ 1967  vi Convolution_1D.cu 
+ 1968  nvcc Convolution_1D.cu -o Convolution_1D.o 
+ 1969  nvprof ./Convolution_1D.o 100000000 10000 40 1024
+ 1970  exit
+ 1971  cd CUDA_Prog/
+ 1972  ls
+ 1973  cd built_In_Libraries/
+ 1974  ls
+ 1975  cd CUBLAS/
+ 1976  ls
+ 1977  vi MatMult_cuBLAS.cu 
+ 1978  nvcc MatMult_cuBLAS.cu -o MatMult_cuBLAS.o
+ 1979  vi MatMult_cuBLAS.cu 
+ 1980  vi MatMult1.cu
+ 1981  history
+ 1982  ls
+ 1983  vi MatMult_cuBLAS1.cu 
+ 1984  vi MatMult_cuBLAS.cu 
+ 1985  ./my_MatMul_cublas.o 5000
+ 1986  vi MatMult_cuBLAS1.cu 
+ 1987  ./my_MatMul_cublas.o 10000
+ 1988  exit
+ 1989  cd CUDA_Prog/
+ 1990  ls
+ 1991  cd built_In_Libraries/
+ 1992  ls
+ 1993  cd CUBLAS/
+ 1994  ls
+ 1995  vi cublas_utils.h 
+ 1996  vi MatMult1.cu 
+ 1997  vi MatMulti1.cu 
+ 1998  ./my_program.o 1000
+ 1999  vi MatMulti1.cu 
+ 2000  .vi MatMulti1.cu 
+ 2001  vi MatMulti1.cu 
+ 2002  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=compute_80 -rdc=true -lcublas_device -lcudadevrt
+ 2003  nvcc -std=c++11 MatMulti1.cu -o my_program.o -lcublas -arch=compute_64 -rdc=true -lcublas_device -lcudadevrt
+ 2004  history > hist.txt

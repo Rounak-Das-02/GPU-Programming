@@ -16,7 +16,6 @@ __global__ void computeUsingGPUs(int *c, int *a, int *b, int n)
         {
             temp_sum += a[row * n + i] * b[col + i * n];
         }
-
         c[row * n + col] = temp_sum;
     }
 }

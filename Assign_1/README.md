@@ -4,6 +4,8 @@ You can run all the programs using `nvcc`
 Just type `nvcc <filename>.cu`
 After that type in `./a.out <number of blocks> <number of threads>`
 
+In prime.cu, the total number of threads should be equal to the number till which we want to generate.
+
 Only exception is normal matrix multiplication program where we decided to experiment with dimensions of blocks and grids. So, to multiple 8192 x 8192 matrices, we divided the number of blocks to be of 256 x 256 and threads to be of 32 x 32.
 
 Total is your 8192 x 8192. Each thread computes something.

@@ -1,85 +1,72 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <cuda.h>
-#include <cuda_runtime.h>
 
-__global__ void matrix_mult(float *a, float *b, float *c, int n)
-{
-    int row = blockIdx.y * blockDim.y + threadIdx.y;
-    int col = blockIdx.x * blockDim.x + threadIdx.x;
-    float sum = 0.0f;
+#define BLOCK_SIZE 32
+#define TILE_WIDTH 16
 
-    if (row < n && col < n)
-    {
-        for (int k = 0; k < n; k++)
-        {
-            sum += a[row * n + k] * b[k * n + col];
-        }
+__global__ void MatrixMulKernel(float *d_M, float *d_N, float *d_P, int Width) {
+  __shared__ float Mds[TILE_WIDTH][TILE_WIDTH];
+  __shared__ float Nds[TILE_WIDTH][TILE_WIDTH];
 
-        c[row * n + col] = sum;
+  int bx = blockIdx.x;
+  int by = blockIdx.y;
+  int tx = threadIdx.x;
+  int ty = threadIdx.y;
+
+  int Row = by * TILE_WIDTH + ty;
+  int Col = bx * TILE_WIDTH + tx;
+
+  float Pvalue = 0;
+
+  // Loop over the d_M and d_N tiles required to compute d_P element
+  for (int m = 0; m < Width / TILE_WIDTH; ++m) {
+    // Collaborative loading of d_M and d_N tiles into shared memory
+    Mds[ty][tx] = d_M[Row * Width + m * TILE_WIDTH + tx];
+    Nds[ty][tx] = d_N[(m * TILE_WIDTH + ty) * Width + Col];
+    __syncthreads();
+
+    for (int k = 0; k < TILE_WIDTH; ++k) {
+      Pvalue += Mds[ty][k] * Nds[k][tx];
     }
+    __syncthreads();
+  }
+
+  d_P[Row * Width + Col] = Pvalue;
 }
 
-void display_matrix(float *m, int n)
-{
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < n; j++)
-        {
-            printf("%f ", m[i * n + j]);
-        }
-        printf("\n");
+int main(int argc, char **argv) {
+  int N = 8192;
+  int block_size = BLOCK_SIZE;
+  int tile_width = TILE_WIDTH;
+
+  float *A, *B, *C;
+  cudaMallocManaged(&A, N * N * sizeof(float));
+  cudaMallocManaged(&B, N * N * sizeof(float));
+  cudaMallocManaged(&C, N * N * sizeof(float));
+
+  for (int i = 0; i < N * N; i++) {
+    A[i] = 1;
+    B[i] = 1;
+  }
+
+  dim3 blocksPerGrid(N / tile_width, N / tile_width);
+  dim3 threadsPerBlock(tile_width, tile_width);
+
+  MatrixMulKernel<<<blocksPerGrid, threadsPerBlock>>>(A, B, C, N);
+
+  cudaDeviceSynchronize();
+
+  for (int i = 0; i < N; i++) {
+    for (int j = 0; j < N; j++) {
+      printf("%f ", C[i * N + j]);
     }
-}
+    printf("\n");
+  }
 
-int main(int argc, char **argv)
-{
-    int n = 8192;
-    int num_blocks = atoi(argv[1]);
-    int threads_per_block = atoi(argv[2]);
+  cudaFree(A);
+  cudaFree(B);
+  cudaFree(C);
 
-    float *a, *b, *c;
-    float *d_a, *d_b, *d_c;
-    size_t size = n * n * sizeof(float);
-
-    a = (float *)malloc(size);
-    b = (float *)malloc(size);
-    c = (float *)malloc(size);
-
-    for (int i = 0; i < n * n; i++)
-    {
-        a[i] = (float)rand() / RAND_MAX;
-        b[i] = (float)rand() / RAND_MAX;
-    }
-
-    cudaMalloc((void **)&d_a, size);
-    cudaMalloc((void **)&d_b, size);
-    cudaMalloc((void **)&d_c, size);
-
-    cudaMemcpy(d_a, a, size, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_b, b, size, cudaMemcpyHostToDevice);
-
-    dim3 grid(num_blocks, num_blocks);
-    dim3 block(threads_per_block, threads_per_block);
-
-    cudaEvent_t start, stop;
-    cudaEventCreate(&start);
-    cudaEventCreate(&stop);
-    cudaEventRecord(start);
-
-    matrix_mult<<<grid, block>>>(d_a, d_b, d_c, n);
-
-    cudaMemcpy(c, d_c, size, cudaMemcpyDeviceToHost);
-
-    display_matrix(c, n);
-
-    free(a);
-    free(b);
-    free(c);
-
-    cudaFree(d_a);
-    cudaFree(d_b);
-    cudaFree(d_c);
-
-    return 0;
+  return 0;
 }

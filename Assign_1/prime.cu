@@ -17,7 +17,9 @@ __global__ void sieve(int *primes, int n)
 
 int main(int argc, char **argv)
 {
-    unsigned int n = 2147483647;
+    // For
+    // unsigned int n = 2147483647;
+    unsigned int n = 1024; // Number of blocks = 2, number of threads = 512
     int num_blocks = atoi(argv[1]);
     int block_size = atoi(argv[2]);
     int *primes = (int *)malloc((n + 1) * sizeof(int));
@@ -30,11 +32,12 @@ int main(int argc, char **argv)
     cudaMalloc(&d_primes, (n + 1) * sizeof(int));
     cudaMemcpy(d_primes, primes, (n + 1) * sizeof(int), cudaMemcpyHostToDevice);
 
+    // sieve<<<num_blocks, block_size>>>(d_primes, n);
     sieve<<<num_blocks, block_size>>>(d_primes, n);
 
     cudaMemcpy(primes, d_primes, (n + 1) * sizeof(int), cudaMemcpyDeviceToHost);
 
-    for (int i = 2; i <= n; i++)
+    for (int i = 2; i <= 100; i++)
     {
         if (primes[i])
         {
